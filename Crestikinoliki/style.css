@@ -1,0 +1,176 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(182, 97, 28);
+}
+#field {
+    border-collapse: collapse;
+    margin-left: 780px;
+   }
+ 
+   #field td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 24px;
+    background-color: white;
+    
+   }
+.name{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+#endgame{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin-left: 790px;
+}
+@media (max-width:1024px) {
+    #field {
+        border-collapse: collapse;
+        margin-left: 390px;
+    }
+     
+       #field td {
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        vertical-align: middle;
+        border: 1px solid rgb(0, 0, 0);
+        cursor: pointer;
+        font-size: 24px;
+        background-color: white;
+        
+       }
+    .name{
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 50px;
+    }
+    #endgame{
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        margin-left: 400px;
+    }
+}
+
+@media (max-width:768px) {
+    #field {
+        border-collapse: collapse;
+        margin-left: 240px;
+    }
+     
+       #field td {
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        vertical-align: middle;
+        border: 1px solid rgb(0, 0, 0);
+        cursor: pointer;
+        font-size: 24px;
+        background-color: white;
+        
+       }
+    .name{
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 50px;
+    }
+    #endgame{
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        margin-left: 250px;
+    }
+}
+@media (max-width:425px) {
+    #field {
+        border-collapse: collapse;
+        margin-left: 60px;
+    }
+     
+       #field td {
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        vertical-align: middle;
+        border: 1px solid rgb(0, 0, 0);
+        cursor: pointer;
+        font-size: 24px;
+        background-color: white;
+        
+       }
+       .name {
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+    }
+    #endgame {
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        margin-left: 110px;
+    }
+}
+@media (max-width:375px) {
+    #field {
+        border-collapse: collapse;
+        margin-left: 40px;
+    }
+       #field td {
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        vertical-align: middle;
+        border: 1px solid rgb(0, 0, 0);
+        cursor: pointer;
+        font-size: 24px;
+        background-color: white;
+        
+       }
+       .name {
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+    }
+    #endgame {
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        margin-left: 110px;
+    }
+}
+@media (max-width:320px) {
+    #field {
+        border-collapse: collapse;
+        margin-left: 5px;
+    }
+       #field td {
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        vertical-align: middle;
+        border: 1px solid rgb(0, 0, 0);
+        cursor: pointer;
+        font-size: 24px;
+        background-color: white;
+        
+       }
+       .name {
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+    }
+    #endgame {
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        margin-left: 70px;
+    }
+}
